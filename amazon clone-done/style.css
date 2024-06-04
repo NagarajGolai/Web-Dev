@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#top-nav-bar {
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Hover */
+.border {
+    border: white transparent 1px;
+    border-radius: 3px;
+}
+
+.border:hover {
+    border: solid white 1px;
+    border-radius: 3px;
+}
+
+/* Box1 */
+#box1-nav {
+    color: white;
+    font-size: 30px;
+    width: 128.73px;
+    height: 85%;
+    background-color: #0f220f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+/* Box2 */
+#box2-nav {
+    color: white;
+    margin-left: 5px;
+    width: 200px;
+    height: 85%;
+    align-content: center;
+    white-space: nowrap;
+}
+
+#delivery {
+    margin-left: 22px;
+    font-size: 13px;
+
+}
+
+#div-box2-nav {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+/* Box3 searchbar*/
+#search-bar {
+    border: 1px goldenrod transparent;
+    width: 450px;
+    height: 65%;
+    margin-left: 15px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar:hover {
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+#search-select {
+    width: 60px;
+    border: none;
+    background-color: rgb(178, 174, 174);
+    align-content: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#input-bar {
+    border: none;
+    width: 100%;
+    min-width: 200px;
+}
+
+#search-icon {
+    border: none;
+    width: 60px;
+    background-color: orange;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Box4 */
+#box4 {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+#flag {
+    height: 15px;
+    width: 20px;
+    background-color: antiquewhite;
+    margin: 2px;
+}
+
+#Language-select {
+    background-color: transparent;
+    border: none;
+    color: wheat;
+}
+
+/* Last box */
+#last-box {
+    width: 90px;
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
+
+#cart-icon {
+    background-color: antiquewhite;
+    height: 80%;
+    width: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Nav2 */
+#nav2 {
+    background-color: rgb(35, 47, 62);
+    height: 39px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1-nav2 */
+#box1-nav2 {
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-left: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#all-menu {
+    width: 20px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+#options-nav2 {
+    display: flex;
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#options-nav2 li {
+    color: white;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    height: 80%;
+}
+
+#options-nav2 select {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#options-nav2 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#options-nav2 li:hover {
+    margin-top: 0.5px;
+}
+
+/* Hero section */
+#hero-section {
+    background-image: url("hero1.png");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+}
+#div1-hero{
+    display: flex;
+}
+#div-hero {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 260px;
+    background-color: transparent;
+    /* display: flex; */
+
+}
+
+/* Boxes of hero section */
+.box-hero {
+    height: 400px;
+    width: 35%;
+    min-width: 300px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head-box-hero {
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#img-box-hero {
+    width: 86%;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#link-box-hero {
+    text-decoration: none;
+    color: rgb(1, 145, 136);
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+/* div below hero section */
+#div-below-hero{
+    width: 100%;
+    background-color: rgb(156, 156, 156);
+    padding-top: 1050px;
+}
+/* last div of hero */
+#div-of-div-below-hero{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(34, 32, 56, 0.873);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    display: flex;
+}
+#div-of-footer p{
+    text-align: center;
+    margin-top: 5px; 
+}
